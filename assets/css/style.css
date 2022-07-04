@@ -96,7 +96,7 @@ section {
   width: 20rem;
   border-radius: 0.5rem;
   padding-bottom: 4rem;
-  box-shadow: 2px 2px 2px 2px #cacaca;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 10rem;
 }
 
