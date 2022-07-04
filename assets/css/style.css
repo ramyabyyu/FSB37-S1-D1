@@ -56,7 +56,6 @@ section {
 }
 
 .top__footer .contact__me {
-  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,4 +108,55 @@ section {
 
 .bottom .card .name {
   text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top__footer .contact__me {
+    width: 40%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 992px and down) */
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 2rem;
+  }
+
+  .top__footer .contact__me {
+    width: 60%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 1rem;
+  }
+
+  .top__footer .contact__me {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top__footer .contact__me {
+    width: 20%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  .top__footer .contact__me {
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top__footer .contact__me {
+    width: 30%;
+  }
 }
