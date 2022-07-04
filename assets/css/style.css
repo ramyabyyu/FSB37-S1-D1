@@ -21,10 +21,9 @@ a {
 
 section {
   padding: 4rem;
-  width: 90%;
+  width: 60%;
   margin: auto;
   height: 100vh;
-  margin-bottom: 20rem;
 }
 
 .section__about {
@@ -99,6 +98,7 @@ section {
   border-radius: 0.5rem;
   padding-bottom: 4rem;
   box-shadow: 2px 2px 2px 2px #cacaca;
+  margin-bottom: 10rem;
 }
 
 .bottom .card img {
